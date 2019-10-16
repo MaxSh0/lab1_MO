@@ -1,0 +1,4 @@
+﻿  1.2.1.lab.cpp
+c:\users\mshak\source\repos\1.2.1.lab\1.2.1.lab\1.2.1.lab.cpp(41): warning C4244: инициализация: преобразование "float" в "unsigned int", возможна потеря данных
+c:\users\mshak\source\repos\1.2.1.lab\1.2.1.lab\1.2.1.lab.cpp(42): warning C4244: инициализация: преобразование "float" в "unsigned int", возможна потеря данных
+  1.2.1.lab.vcxproj -> C:\Users\mshak\source\repos\1.2.1.lab\Debug\1.2.1.lab.exe
