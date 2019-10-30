@@ -16,21 +16,21 @@ float f(int T, float b[])
 	{
 		x[i] = b[i];
 	}
-	float value_func = (x[0]  + 10*x[1])*(x[0] + 10 * x[1])+5*(x[2] - x[3])*(x[2] - x[3]) + (x[1] - 2*x[2])*(x[1] - 2 * x[2])*(x[1] - 2 * x[2])*(x[1] - 2 * x[2])+10*(x[0]-x[3])*(x[0] - x[3])*(x[0] - x[3])*(x[0] - x[3]);
+	float value_func = //8 * x[0] * x[0] + 4 * x[0] * x[1] + 5 * x[1] * x[1];
+		
+		//(x[0] * x[0] + x[1] - 11)*(x[0] * x[0] + x[1] - 11) + (x[0] + x[1] * x[1] - 7)*(x[0] + x[1] * x[1] - 7);
+		((x[0] + 10 * x[1])*(x[0] + 10 * x[1])) + (5 * ((x[2] - x[3])*(x[2] - x[3]))) + ((x[1] - 2 * x[2])*(x[1] - 2 * x[2])*(x[1] - 2 * x[2])*(x[1] - 2 * x[2])) + (10 * ((x[0] - x[3])*(x[0] - x[3])*(x[0] - x[3])*(x[0] - x[3])));
+		// 4 * (x[0] - 5)*(x[0] - 5) + (x[1] - 6)*(x[1] - 6);
+		
 	delete[] x;
 	return value_func;
 }
-
 
 float exit_point(const float* x)
 {
 	float dx = sqrt(x[0] * x[0] + x[1] * x[1]);
 	return dx;
 }
-
-
-
-
 
 float* sumArr(float arr[], float arr1[], int T)
 {
@@ -80,50 +80,6 @@ float* exploratory_search(float x0[], float h[], int T, float a, float e, bool &
 	copyArr(x0dublikate, x0, T);
 
 	x1[0] = x0dublikate[0] + h[0];
-	if (T == 2) {
-		if (f(T, x1) < f(T, x0dublikate))
-		{
-			luck = true;
-			return x1;
-		}
-		else
-		{
-			x1[1] = x0dublikate[1] + h[1];
-		}
-
-		if (f(T, x1) < f(T, x0dublikate))
-		{
-			luck = true;
-			return x1;
-		}
-		else
-		{
-			x1[0] = x0dublikate[0] - 2 * h[0];
-		}
-
-		if (f(T, x1) < f(T, x0dublikate))
-		{
-			luck = true;
-			return x1;
-		}
-		else
-		{
-			x1[1] = x0dublikate[1] - 2 * h[1];
-		}
-
-		if (f(T, x1) < f(T, x0dublikate))
-		{
-			luck = true;
-			return x1;
-		}
-		else
-		{
-			luck = false;
-			return x1;
-		}
-	}
-	else 
-	{
 		for (int i = 1; i < T; i++) 
 		{
 			if (f(T, x1) < f(T, x0dublikate)) 
@@ -137,11 +93,8 @@ float* exploratory_search(float x0[], float h[], int T, float a, float e, bool &
 			}
 		}
 
-		for (int i = 0; i < T; i++) 
-		{
-			x1[i] = x0dublikate[i] - h[i];
-		}
-		x1[0] = x0dublikate[0] - h[0];
+
+		x1[0] = x0dublikate[0] - 2*h[0];
 		for (int i = 1; i < T; i++)
 		{
 			if (f(T, x1) < f(T, x0dublikate))
@@ -151,14 +104,21 @@ float* exploratory_search(float x0[], float h[], int T, float a, float e, bool &
 			}
 			else
 			{
-				x1[i] = x0dublikate[i] - h[i];
+				x1[i] = x0dublikate[i] - 2*h[i];
 			}
 		}
-	}
 
+		if (f(T, x1) < f(T, x0dublikate))
+		{
+			luck = true;
+			return x1;
+		}
+		else
+		{
+			luck = false;
+			return x1;
+		}
 	return x1;
-	delete[] x1;
-
 }
 
 float* end(float x0[], float h[], int T, float e, float a, bool& luckEND)
@@ -173,7 +133,7 @@ float* end(float x0[], float h[], int T, float e, float a, bool& luckEND)
 		{
 			h[i] = h[i] / a;
 		}
-		printFloatArr(h, 4);
+		printFloatArr(h, T);
 		cout << endl;
 		return h;
 	}
@@ -182,7 +142,7 @@ float* end(float x0[], float h[], int T, float e, float a, bool& luckEND)
 		luckEND = true;
 		cout << "Точка апроксимации = x";
 		printFloatArr(x0, T);
-		cout << "  f(x) = " << f(4, x0) << endl;
+		cout << "  f(x) = " << f(T, x0) << endl;
 	}
 }
 
@@ -210,8 +170,8 @@ int main()
 	bool luckEND;
 	int T = 4;
 	float e, a;
-	//cout << "Введите количество элементов векторов T: ";
-	//cin >> T;
+	cout << "Введите количество элементов векторов T: ";
+	cin >> T;
 	float *x0 = new float[T];
 	float *xk = new float[T];
 	float *xk0 = new float[T];
@@ -321,13 +281,9 @@ step5:
 		goto step4;
 	}
 
-	//delete[] b2;
-	//delete[] x;
-	//delete[] xk;
-	//delete[] h;
-	//delete[] b;
+
 end:
-	//_getch();
+
 	return 0;
 }
 

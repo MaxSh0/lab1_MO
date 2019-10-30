@@ -1,3 +1,3 @@
 ﻿  2.1.2.lab.cpp
-c:\users\mshak\source\repos\2.1.2.lab\2.1.2.lab\2.1.2.lab.cpp(187): warning C4715: end: значение возвращается не при всех путях выполнения
-  2.1.2.lab.vcxproj -> C:\Users\mshak\source\repos\2.1.2.lab\Debug\2.1.2.lab.exe
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\2.1.2.lab\2.1.2.lab\2.1.2.lab.cpp(147): warning C4715: end: значение возвращается не при всех путях выполнения
+  2.1.2.lab.vcxproj -> C:\Users\mshak_000\Desktop\3.1 курс\Методы оптимизации\lab1_MO\лаба1\2.1.2.lab\Debug\2.1.2.lab.exe

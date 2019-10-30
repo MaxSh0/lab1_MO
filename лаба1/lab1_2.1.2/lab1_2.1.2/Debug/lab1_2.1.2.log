@@ -1,1 +1,48 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: не удалось найти Windows SDK версии 10.0.16299.0. Установите нужную версию Windows SDK или измените версию SDK на страницах свойств проекта либо щелкнув правой кнопкой мыши решение и выбрав "Изменить целевую платформу решения".
+﻿  lab1_2.1.2.cpp
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(8): error C2065: vector: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(8): error C2062: тип "double" не требуется
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(9): error C2065: vector: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(9): error C2062: тип "double" не требуется
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(12): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(13): error C2065: LC_ALL: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(13): error C3861: setlocale: идентификатор не найден
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(17): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(18): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(21): error C2065: vector: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(21): error C2062: тип "double" не требуется
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(24): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(26): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(26): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(27): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(31): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(32): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(35): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(36): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(39): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(40): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(43): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(44): error C2065: cin: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(47): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(47): error C3861: research: идентификатор не найден
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(48): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(52): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(53): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(56): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(56): error C3861: research: идентификатор не найден
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(57): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(59): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(67): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(67): error C2065: endl: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(69): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(69): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(71): error C2065: cout: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(71): error C2065: data: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(71): error C2065: endl: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(74): error C2065: vector: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(74): error C2062: тип "double" не требуется
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(75): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(75): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(99): error C2065: vector: необъявленный идентификатор
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(99): error C2062: тип "double" не требуется
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(100): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+c:\users\mshak_000\desktop\3.1 курс\методы оптимизации\lab1_mo\лаба1\lab1_2.1.2\lab1_2.1.2\lab1_2.1.2.cpp(100): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
