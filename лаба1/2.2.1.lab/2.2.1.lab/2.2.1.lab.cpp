@@ -7,7 +7,7 @@
 using namespace std;
 
 double f(double x, double y) {
-	return 4 * (x - 5)*(x - 5) + (y - 6)*(y - 6); //функцию сюда свою можно вписать
+	return 4 * (x - 5)*(x - 5) + (y - 6)*(y - 6); 
 }
 
 double diffx(double x, double eps) {
@@ -23,8 +23,7 @@ double gradient(double x, double y, double eps)
 	return sqrt(diffx(x, eps)*diffx(x, eps) + diffy(x, eps)*diffy(x, eps));
 }
 
-int main()
-{
+int main(){
 	setlocale(LC_ALL, "Russian");
 	double x0[2];
 	double eps;
@@ -63,58 +62,3 @@ end:
 	return 1;
 }
 
-/*
-float fmin(float x)
-{
-	return (x - 1)*(x - 1);
-}
-
-int min()
-{
-	setlocale(LC_ALL, "Russian");
-
-	float a, b, e, t, x1, x2;
-
-
-	cout << "Для решения данной задачи необходимо задать интервал на отрезке [a,b]" << endl;
-	cout << "Введите начало интервала a: ";
-	cin >> a;
-	cout << "Введите конец интервала b: ";
-	cin >> b;
-	cout << "Введите параметр точности поиска e : ";
-	cin >> e;
-
-	t = (sqrt(5) + 1) / 2;
-
-
-	x1 = a + (b - a) / (t * t);
-	x2 = a + (b - a) / t;
-
-
-metka:
-	if (fmin(x1) <= fmin(x2))
-	{
-		b = x2;
-		x2 = x1;
-		x1 = a + b - x2;
-	}
-
-	else
-	{
-		a = x1;
-		x1 = x2;
-		x2 = a + b - x1;
-	}
-
-	if ((b - a) / 2 < e)
-	{
-		return (a + b) / 2;
-	}
-
-	else
-	{
-		goto metka;
-	}
-	return 0;
-}
-*/
